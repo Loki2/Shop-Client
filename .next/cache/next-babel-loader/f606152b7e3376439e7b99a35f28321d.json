@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Product from '../../components/Product';\n\nconst ProductPage = () => {\n  return __jsx(Product, null);\n};\n\nexport default ProductPage;","map":null,"metadata":{},"sourceType":"module"}

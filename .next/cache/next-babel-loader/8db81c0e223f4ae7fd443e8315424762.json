@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport '../../styles/_sidebar.scss';\n\nvar Sidebar = function Sidebar() {\n  return __jsx(\"div\", {\n    className: \"sidebar-container\"\n  }, \"i am sidebar\");\n};\n\nexport default Sidebar;","map":null,"metadata":{},"sourceType":"module"}

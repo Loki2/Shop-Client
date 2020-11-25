@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport RequestResetPassword from '../../components/RequestResetPassword';\n\nvar requestresetpassword = function requestresetpassword() {\n  return __jsx(RequestResetPassword, null);\n};\n\nexport default requestresetpassword;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,12 @@
+@import "./variables.scss";
+.Cart_Page {
+      max-width: 1230px;
+      margin: 0 auto;
+      margin-top: 70px;
+      background: $background;
+
+      .cart_content {
+            width: 100%;
+            margin: auto;
+      }
+}
