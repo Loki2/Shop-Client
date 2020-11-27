@@ -12,11 +12,14 @@ const UserProfile = () => {
     if (loading) return <p>Loading...!</p>
     return (
         <>
-        {data.user.profile === null || data.user.profile === undefined ? <button onClick={() => Router.push('/profile/create')}>Add</button> :
+        {
+                data.user.profile === null || 
+                data.user.profile === undefined ? 
+                <button onClick={() => Router.push('/profile/create')}>Add</button> :
         <div>
               {/* Create Thumnail for no-cover-iamge */}
               <div className="cover_image">
-                <img src={data.user.profile.coverImage} alt="cover_image" height="265px" width="1020px"/>
+                <img src={data.user.profile.coverImage} alt="cover_image" height="265px" width="1205px" style={{marginTop: "15px"}}/>
             </div>
              {/* Create Thumnail for no-profile-iamge */}
             <div className="profile_image" style={{alignItems: "center"}}>

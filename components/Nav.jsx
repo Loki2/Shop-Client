@@ -20,8 +20,10 @@ function nav() {
         }
     }, [data])
     return (
+       
         <nav className="site-navigation">
-            <span className="menu-title">EZ-Shoppin</span>
+            <span className="menu-title"> Ozone.Shop</span>
+            <input className="search_input" type="search" name="search" id="search" placeholder="i am feeling happy shopping for...!"/>
             <div className="menu-content-container">
                
                 <ul>
@@ -58,7 +60,7 @@ function nav() {
                         >Logout</button>
 
                         <li>
-                            <Link href="/manage">
+                            <Link href="/dashboard">
                                 <a>My Store</a>
                             </Link>
                         </li>
@@ -78,10 +80,14 @@ function nav() {
                         </li>
                     </>}
                 </ul>
+                <ul>
+                    <li>En</li> &nbsp;
+                    {/* <li>La</li> */}
+                </ul>
                 <span className="menu-title">
                     {user && <>
                         <li className="username">
-                            <Link href="/">
+                            <Link href="/dashboard">
                                 <a>@{user.username}</a>
                             </Link>
                         </li>

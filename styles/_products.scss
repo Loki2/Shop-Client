@@ -6,19 +6,19 @@
       // box-shadow: rgb(238, 238, 238) 0px 0px 35px;
       display: grid;
       margin-top: 12px;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));
       background: $background;
 }
 
 .product_card {
       max-width: 300px;
       overflow: hidden;
-      height: 350px;
+      height: 335px;
       box-shadow: 0 0 15px #ddd;
       margin: 5px 5px;
       padding: 5px 10px;
       position: relative;
-      border-radius: 10px;
+      border-radius: 5px;
 
       img {
             width: 100%;

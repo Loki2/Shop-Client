@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "start:prod":"next start -p 80"
   },
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
@@ -25,6 +26,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-modal": "^3.12.1",
-    "sass": "^1.29.0"
+    "sass": "^1.29.0",
+    "swiper": "^6.3.5"
   }
 }

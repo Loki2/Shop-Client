@@ -43,14 +43,17 @@ MyApp.getInitialProps = async ({ ctx, router }) => {
 
       if (!token) {
             if (
-                  router.pathname === "/carts" ||
-                  router.pathname === "/manage" ||
-                  router.pathname === "/manage/createProduct"||
-                  router.pathname === "/profile"||
-                  router.pathname === "/profile/create" ||
-                  router.pathname === "/categories" ||
-                  router.pathname ==="/brands" ||
-                  router.pathname ==="/brands/createBrand" 
+                    router.pathname === "/dashboard" ||
+                    router.pathname === "/carts" ||
+                    router.pathname === "/manage" ||
+                    router.pathname === "/manage/createProduct"||
+                    router.pathname === "/profile"||
+                    router.pathname === "/profile/create" ||
+                    router.pathname === "/categories" ||
+                    router.pathname ==="/brands" ||
+                    router.pathname ==="/brands/createBrand" ||
+                    router.pathname === "/banks" ||
+                    router.pathname ==="/banks/CreateBankAc"
             ) {
                   //Use OR To Protected more Routers
                   ctx.res.writeHead(302, { Location: "/signin" }); //302 Redirect Route code

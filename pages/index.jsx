@@ -1,12 +1,13 @@
 import React from 'react';
+import Banner from '../components/Banner';
 import Products from '../components/Products';
 // import Products from '../components/Products';
 
 function Home() {
   return (
-      <div>
+      <div className="home_page">
           <div>
-              banner And Filter Searching
+              <Banner />
           </div>
           <div>
               <h2>New Promotions!</h2>
@@ -33,11 +34,11 @@ function Home() {
             <Products />
           </div>
           <div>
-              Sidebar (User Profile)
+              Sidebar (Categories List)
           </div>
         
       </div>
   )
 }
 
-export default Home
+export default Home;
