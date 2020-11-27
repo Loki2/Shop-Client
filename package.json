@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "start:prod":"next start -p 80"
+    "start:prod": "next start -p 80"
   },
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
@@ -17,6 +17,7 @@
     "apollo-link-http": "^1.5.17",
     "cookie": "^0.4.1",
     "dayjs": "^1.9.5",
+    "dotenv": "^8.2.0",
     "graphql": "^15.3.0",
     "graphql-tag": "^2.11.0",
     "isomorphic-unfetch": "^3.0.0",
